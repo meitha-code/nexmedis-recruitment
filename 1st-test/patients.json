@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ana",
+        "age": 22,
+        "gender": "Female",
+        "diagnosis": "Flu"
+    },
+    {
+        "name": "Bibu",
+        "age": 7,
+        "gender": "Male",
+        "diagnosis": "Monkey pox"
+    },
+    {
+        "name": "Ciko",
+        "age": 30,
+        "gender": "Male",
+        "diagnosis": "TBC"
+    },
+    {
+        "name": "Danang",
+        "age": 45,
+        "gender": "Male",
+        "diagnosis": "Gerd"
+    }
+]
