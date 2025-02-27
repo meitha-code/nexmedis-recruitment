@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+    width: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+}
+
+.container aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* padding: 2rem; */
+
+    background-color: #e5eaf5;
+    height: 100vh;
+}
+
+.container aside ul.menu {
+    padding: 0;
+    margin: 0;
+}
+
+.container aside ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #60435f;
+    display: flex;
+    padding: 0.5rem 2rem;
+}
+
+.container aside ul li a {
+    text-decoration: none;
+    color: #60435f;
+}
+
+.container aside ul li a:visited {
+    color: #60435f;
+}
+
+.container aside ul li.active {
+    background-color: #8458B3;
+}
+
+.container aside ul li.active a {
+    color: white !important;
+}
+
+.container main h2 {
+    color: #60435f;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.container main button {
+    padding: 0.2rem 2rem;
+    color: #60435f;
+    background-color: #e5eaf5;
+
+    border-radius: 10px;
+    border: 1px solid #60435f;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.container main section.table-data {
+    background-color: #e5eaf5;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+
+    height: 70vh;
+    width: 100vh;
+}
+
+section.table-data {
+    width: 100vw;
+}
+
+section.table-data table {
+    width: 100%;
+}
+
+table, thead, th, tr, td {
+    border: 2px solid #60435f;
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+label {
+    font-weight: 600;
+    color: #60435f;
+}
